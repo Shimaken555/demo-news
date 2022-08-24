@@ -18,6 +18,9 @@ const HomeScreen: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
+  useEffect(() => {
+    fetchArticles();
+  }, [category]);
 
   const fetchArticles = async () => {
     try {
@@ -33,10 +36,6 @@ const HomeScreen: React.FC = () => {
       console.error(err);
     }
   };
-
-  useEffect(() => {
-    fetchArticles();
-  }, [category]);
 
   return (
     <>
