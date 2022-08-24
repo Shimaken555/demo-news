@@ -52,7 +52,7 @@ const Weather: React.FC = () => {
             </div>
             <div className="weather__icon">
               <img
-                src={`./img/weatherIcons/${icon.slice(0, 2) + 'd'}.png`}
+                src={`/img/weatherIcons/${icon.slice(0, 2) + 'd'}.png`}
                 alt="Tokyo's weather icon"
               />
               <span>{main}</span>
