@@ -5,7 +5,7 @@ import { BookmarkContext } from '../../App';
 import { addBookmark, deleteBookmark } from '../../bookmark/bookmarkAction';
 import { GrFavorite } from 'react-icons/gr';
 import { MdFavorite } from 'react-icons/md';
-import styles from './listItem.module.scss';
+import './listItem.scss';
 
 type Props = {
   article: Article;
@@ -38,35 +38,35 @@ const ListItem: React.FC<Props> = ({ article }) => {
 
   return (
     <>
-      <article className={styles.item}>
-        <div className={styles.item__main}>
+      <article className='item'>
+        <div className='item__main'>
           <a href={article.url} target="_blank" rel="noopener noreferrer">
-            <div className={styles.item__title}>
+            <div className='item__title'>
               <p>{article.title.slice(0, 80)}...</p>
             </div>
           </a>
-          <div className={styles.item__bottom}>
+          <div className='item__bottom'>
             <p>
               {time}
               時間前
             </p>
-            <div className={styles.item__bookmark} onClick={handleBookmark}>
+            <div className='item__bookmark' onClick={handleBookmark}>
               {isBookmark() ? <MdFavorite /> : <GrFavorite />}
             </div>
             <div
-              className={styles.item__bookmark__like}
+              className='item__bookmark__like'
               onClick={handleBookmark}
             >
               <span>お気に入り登録</span>
             </div>
           </div>
         </div>
-        <div className={styles.item__img}>
+        <div className='item__img'>
           <a href={article.url} target="_blank" rel="noopener noreferrer">
             {article.urlToImage && (
               <img
                 src={article.urlToImage}
-                className={styles.item__img}
+                className='item__img'
                 alt={article.title}
               />
             )}
