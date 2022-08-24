@@ -18,15 +18,16 @@ const HomeScreen: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
+
   useEffect(() => {
-    fetchArticles();
+    fetchArticleNews();
   }, [category]);
 
-  const fetchArticles = async () => {
+  const fetchArticleNews = async () => {
     try {
       setLoading(true);
-      const newsKey = '57d8bef9b280448b9627c500b26820c8';
-      const URL = `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=${newsKey}`;
+      // const newsKey = '57d8bef9b280448b9627c500b26820c8';
+      const URL = `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=57d8bef9b280448b9627c500b26820c8`;
       const res = await axios.get(URL);
       setArticles(res.data.articles);
       setLoading(false);
