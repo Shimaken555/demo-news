@@ -26,8 +26,8 @@ const HomeScreen: React.FC = () => {
   const fetchArticleNews = async () => {
     try {
       setLoading(true);
-      // const newsKey = '57d8bef9b280448b9627c500b26820c8';
-      const URL = `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=57d8bef9b280448b9627c500b26820c8`;
+      const newsKey = '57d8bef9b280448b9627c500b26820c8';
+      const URL = `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=${newsKey}`;
       const res = await axios.get(URL);
       setArticles(res.data.articles);
       setLoading(false);
