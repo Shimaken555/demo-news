@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import moment from 'moment';
-import styles from './listItem.module.scss';
 import { Article } from '../../types';
 import { BookmarkContext } from '../../App';
 import { addBookmark, deleteBookmark } from '../../bookmark/bookmarkAction';
 import { GrFavorite } from 'react-icons/gr';
 import { MdFavorite } from 'react-icons/md';
+import styles from './listItem.module.scss';
 
 type Props = {
   article: Article;
@@ -13,7 +13,6 @@ type Props = {
 
 const ListItem: React.FC<Props> = ({ article }) => {
   const { bookmarkState, bookmarkDispatch } = useContext(BookmarkContext);
-  // 時間表示
   const time =
     moment(article.publishedAt || moment.now())
       .fromNow()
@@ -29,7 +28,6 @@ const ListItem: React.FC<Props> = ({ article }) => {
     );
   };
 
-  // Webクリップをチェックした際の処理
   const handleBookmark = () => {
     if (isBookmark()) {
       bookmarkDispatch(deleteBookmark({ bookmarkArticle: article }));

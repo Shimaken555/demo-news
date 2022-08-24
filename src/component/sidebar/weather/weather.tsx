@@ -17,10 +17,9 @@ const Weather: React.FC = () => {
   const fetchArticles = async () => {
     try {
       setLoading(true);
-      const exclude = 'hourly,minutely'; // 取得しない情報(1時間ごとの天気情報と1分間ごとの天気情報)
+      const exclude = 'hourly,minutely';
       const weatherKey = 'c19889a5d98ce4046ae35a0fd80dc0ff';
-      // 東京の天気を取得
-      const lat = 35.4122; // 取得したい地域の緯度と経度(今回は東京)
+      const lat = 35.4122; 
       const lon = 139.413;
       const URL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=${exclude}&appid=${process.env.React_APP_WEATHER_API_KEY}`;
       const res = await axios.get(URL);

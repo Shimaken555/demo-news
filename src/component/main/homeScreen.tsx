@@ -22,12 +22,10 @@ const HomeScreen: React.FC = () => {
     fetchArticles();
   }, [category]);
 
-  // News APIから特定カテゴリーのニュースデータを取得
   const fetchArticles = async () => {
     try {
       setLoading(true);
       const URL = `http://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=${process.env.React_APP_NEWS_API_KEY}`;
-      // const URL = `http://newsapi.org/v2/top-headlines?country=jp&pageSize=30&apiKey=${process.env.React_APP_OPENNEWS_API_KEY}`;
       const res = await axios.get(URL);
       setArticles(res.data.articles);
       setLoading(false);
