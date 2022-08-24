@@ -2,11 +2,11 @@ import React, { useState, useEffect, createContext } from 'react';
 import axios from 'axios';
 import ArticleList from '../article/articleList';
 import { TbLoader } from 'react-icons/tb';
-import styles from './screen.module.scss';
 import Sidebar from '../sidebar/sidebar';
 import { categoryList } from '../CategoryList';
 import { HandleCategoryContextType } from '../../types';
 import Header from '../header/header';
+import './screen.scss';
 
 export const handleCategoryContext = createContext(
   {} as HandleCategoryContextType
@@ -47,13 +47,9 @@ const HomeScreen: React.FC = () => {
         <Header screen="home" />
       </handleCategoryContext.Provider>
 
-      <div className={styles.screen}>
-        <div className={styles.screen__left}>
-          <div
-            className={`${styles.screen__left__title} ${styles.title__blue}`}
-          >
-            {category}
-          </div>
+      <div className="screen">
+        <div className="screen__left">
+          <div className="screen__left__title title__blue">{category}</div>
           {loading ? (
             <h2>
               <TbLoader />
@@ -65,7 +61,7 @@ const HomeScreen: React.FC = () => {
             <h2>データ取得エラー</h2>
           )}
         </div>
-        <div className={styles.screen__right}>
+        <div className="screen__right">
           <handleCategoryContext.Provider
             value={{
               category: category,

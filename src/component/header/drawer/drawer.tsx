@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { handleCategoryContext } from '../../main/homeScreen';
-import styles from './drawer.module.scss';
 import { Visible } from '../../../types';
 import { categoryList } from '../../CategoryList';
+import './drawer.scss';
 
 const Drawer: React.FC<Visible> = ({ visible, setVisible }) => {
   const { category, handleCategory } = useContext(handleCategoryContext);
@@ -10,12 +10,12 @@ const Drawer: React.FC<Visible> = ({ visible, setVisible }) => {
   console.log(category);
 
   return (
-    <div className={styles.drawer}>
+    <div className='drawer'>
       <div className={
-          visible ? `${styles.displayed__drawer}` : `${styles.undisplayed__drawer}`
+          visible ? 'displayed__drawer' : 'undisplayed__drawer'
         }
       >
-        <ul className={styles.drawer__ul}>
+        <ul className='drawer__ul'>
           {categoryList.map((list, index) => (
             <li
               key={index}
@@ -25,8 +25,8 @@ const Drawer: React.FC<Visible> = ({ visible, setVisible }) => {
               }}
               className={
                 category === list
-                  ? `${styles.displayed}`
-                  : `${styles.undisplayed}`
+                  ? 'displayed'
+                  : 'undisplayed'
               }
             >
               <span>{list}</span>

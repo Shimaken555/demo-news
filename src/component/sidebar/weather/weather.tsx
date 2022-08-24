@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import styles from './weather.module.scss';
+import './weather.scss';
 
 const Weather: React.FC = () => {
   const [temp, setTemp] = useState([]);
@@ -19,7 +19,7 @@ const Weather: React.FC = () => {
       setLoading(true);
       const exclude = 'hourly,minutely';
       const weatherKey = 'c19889a5d98ce4046ae35a0fd80dc0ff';
-      const lat = 35.4122; 
+      const lat = 35.4122;
       const lon = 139.413;
       const URL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=${exclude}&appid=${process.env.React_APP_WEATHER_API_KEY}`;
       const res = await axios.get(URL);
@@ -38,19 +38,19 @@ const Weather: React.FC = () => {
 
   return (
     <>
-      <div className={styles.weather}>
-        <div className={styles.weather__main}>
-          <div className={styles.weather__title}>
+      <div className="weather">
+        <div className="weather__main">
+          <div className="weather__title">
             <h2>Tokyo Current Weather</h2>
           </div>
-          <div className={styles.weather__top}>
-            <div className={styles.weather__temp}>
+          <div className="weather__top">
+            <div className="weather__temp">
               <p>
                 {temp.toString().slice(0, 2)}
                 <span>˚c</span>
               </p>
             </div>
-            <div className={styles.weather__icon}>
+            <div className="weather__icon">
               <img
                 src={`/img/weatherIcons/${icon.slice(0, 2) + 'd'}.png`}
                 alt="Tokyo's weather icon"

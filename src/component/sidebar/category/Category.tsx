@@ -1,19 +1,17 @@
 import React, { useContext } from 'react';
 import { handleCategoryContext } from '../../main/homeScreen';
-import styles from './Category.module.scss';
 import { categoryList } from '../../CategoryList';
+import './Category.scss';
 
 const Category: React.FC = () => {
   const { category, handleCategory } = useContext(handleCategoryContext);
   return (
-    <div className={styles.category}>
+    <div className="category">
       {categoryList.map((list, index) => (
         <li
           key={index}
           onClick={() => handleCategory(list as string)}
-          className={
-            category === list ? `${styles.displayed}` : `${styles.undisplayed}`
-          }
+          className={category === list ? 'displayed' : 'undisplayed'}
         >
           <span>{list}</span>
         </li>

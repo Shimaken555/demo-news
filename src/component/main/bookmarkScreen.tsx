@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { BookmarkContext } from '../../App';
 import ArticleList from '../article/articleList';
-import styles from './screen.module.scss';
 import Weather from '../sidebar/weather/weather';
 import Header from '../header/header';
+import './screen.scss';
 
 const BookmarkScreen: React.FC = () => {
   const { bookmarkState } = useContext(BookmarkContext);
@@ -11,14 +11,12 @@ const BookmarkScreen: React.FC = () => {
   return (
     <>
       <Header screen="bookmark" />
-      <div className={styles.screen}>
-        <div className={styles.screen__left}>
-          <div className={`${styles.screen__left__title} ${styles.title__red}`}>
-            Favorite
-          </div>
+      <div className="screen">
+        <div className="screen__left">
+          <div className="screen__left__title title__red">Favorite</div>
           <ArticleList articles={bookmarkState.bookmarkArticles} />
         </div>
-        <div className={styles.screen__right}>
+        <div className="screen__right">
           <Weather />
         </div>
       </div>
