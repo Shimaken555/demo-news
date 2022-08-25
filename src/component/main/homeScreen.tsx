@@ -6,6 +6,7 @@ import Sidebar from '../sidebar/sidebar';
 import { categoryList } from '../CategoryList';
 import { HandleCategoryContextType } from '../../types';
 import Header from '../header/header';
+import newsSite from '../../newsSite.json';
 import './screen.scss';
 
 export const handleCategoryContext = createContext(
@@ -18,7 +19,6 @@ const HomeScreen: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
-
   useEffect(() => {
     fetchArticleNews();
   }, [category]);
@@ -27,9 +27,12 @@ const HomeScreen: React.FC = () => {
     try {
       setLoading(true);
       const newsKey = '57d8bef9b280448b9627c500b26820c8';
-      const URL = `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=${newsKey}`;
-      const res = await axios.get(URL);
-      setArticles(res.data.articles);
+      // const URL = `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=${newsKey}`;
+      // const res = await axios.get(URL);
+      // setArticles(res.data.articles);
+      const data = JSON.stringify(newsSite);
+      const tryData = JSON.parse(data);
+      setArticles(tryData.articles);
       setLoading(false);
     } catch (err: any) {
       setLoading(false);
