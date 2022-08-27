@@ -9,7 +9,7 @@ export const bookmarkReducer = (state: BookmarkStateType, action: BookmarkAction
       return {
         ...state,
         bookmarkArticles: state.bookmarkArticles.filter(
-          (bookmarkArticle) => bookmarkArticle.url !== action.article.url
+          (bookmarkArticle) => bookmarkArticle.link !== action.article.link
         ),
       }
     default:

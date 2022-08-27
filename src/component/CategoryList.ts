@@ -1,9 +1,9 @@
 
 export const categoryList = [
-  'General',
+  'Top',
   'Business',
   'Entertainment',
-  'Health',
+  'politics',
   'Sports',
   'Technology',
 ];

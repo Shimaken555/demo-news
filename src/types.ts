@@ -3,9 +3,9 @@ export type Article = {
   author: string
   title: string
   description: string
-  url: string
-  urlToImage: string
-  publishedAt: string
+  link: string
+  image_url: string
+  pubDate: string
   content: string
 }
 
