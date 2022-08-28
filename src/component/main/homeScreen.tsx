@@ -29,13 +29,13 @@ const HomeScreen: React.FC = () => {
       // const newsKey = 'pub_106778696f5478975393c851aa52e47677e45';
       const newsKey = '57d8bef9b280448b9627c500b26820c8';
       // const URL = `https://newsdata.io/api/1/news?apikey=${newsKey}&country=jp&category=${category}&language=jp`;
-      const URL = `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=${newsKey}`;
+      const topicRes = await fetch(
+        `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=${newsKey}`
+      );
 
-      fetch(URL, {method: 'GET'})
-      .then(res => res.json())
-      .then(data => {
-          setArticles(data.articles);
-      })
+      const topicJson = await topicRes.json();
+      const topicArticles = await topicJson.articles;
+      setArticles(topicArticles);
 
       // const res = await axios.get(URL);
       // setArticles(res.data.articles);
@@ -43,6 +43,7 @@ const HomeScreen: React.FC = () => {
       // const data = JSON.stringify(newsSite);
       // const tryData = JSON.parse(data);
       // setArticles(tryData.articles);
+
       setLoading(false);
     } catch (err: any) {
       setLoading(false);
