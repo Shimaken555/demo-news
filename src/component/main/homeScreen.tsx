@@ -26,23 +26,12 @@ const HomeScreen: React.FC = () => {
   const fetchArticleNews = async () => {
     try {
       setLoading(true);
-      // const newsKey = 'pub_106778696f5478975393c851aa52e47677e45';
-      const newsKey = '57d8bef9b280448b9627c500b26820c8';
-      // const URL = `https://newsdata.io/api/1/news?apikey=${newsKey}&country=jp&category=${category}&language=jp`;
-      const topicRes = await fetch(
-        `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=${newsKey}`
-      );
+      const newsKey = 'pub_106778696f5478975393c851aa52e47677e45';
+      const URL = `https://newsdata.io/api/1/news?apikey=${newsKey}&country=jp&category=${category}&language=jp&`;
 
-      const topicJson = await topicRes.json();
-      const topicArticles = await topicJson.articles;
-      setArticles(topicArticles);
 
-      // const res = await axios.get(URL);
-      // setArticles(res.data.articles);
-      // setArticles(res.data.results);
-      // const data = JSON.stringify(newsSite);
-      // const tryData = JSON.parse(data);
-      // setArticles(tryData.articles);
+      const res = await axios.get(URL);
+      setArticles(res.data.results);
 
       setLoading(false);
     } catch (err: any) {
@@ -95,3 +84,4 @@ const HomeScreen: React.FC = () => {
 };
 
 export default HomeScreen;
+//

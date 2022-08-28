@@ -22,7 +22,7 @@
 }
 
 .item__title {
-  height: 75%;
+  height: 60%;
   line-height: 1.5;
   margin-right: 25px;
   @media screen and (max-width: 900px) {
@@ -33,10 +33,22 @@
   }
 }
 
+.item__source {
+  height: 17%;
+  color: #a9a9a9;
+  display: flex;
+  .item__source__icon {
+    margin-top: 1px;
+  }
+  .item__source__lead {
+    margin-left: 3px;
+  }
+}
+
 .item__bottom {
   margin-top: 10px;
   margin-right: auto;
-  color: #a9a9a9;
+  color: #0078C6;
   display: flex;
   @media screen and (max-width: 600px) {
     margin-top: 5px;
