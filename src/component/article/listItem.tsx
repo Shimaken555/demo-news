@@ -14,17 +14,17 @@ type Props = {
 const ListItem: React.FC<Props> = ({ article }) => {
   const { bookmarkState, bookmarkDispatch } = useContext(BookmarkContext);
   const time =
-    moment(article.pubDate || moment.now())
+    moment(article.publishedAt || moment.now())
       .fromNow()
       .slice(0, 1) === 'a'
       ? 1
-      : moment(article.pubDate || moment.now())
+      : moment(article.publishedAt || moment.now())
           .fromNow()
           .slice(0, 1);
 
   const isBookmark = () => {
     return bookmarkState.bookmarkArticles.some(
-      (bookmarkArticle: Article) => bookmarkArticle.link === article.link
+      (bookmarkArticle: Article) => bookmarkArticle.url === article.url
     );
   };
 
@@ -40,7 +40,7 @@ const ListItem: React.FC<Props> = ({ article }) => {
     <>
       <article className='item'>
         <div className='item__main'>
-          <a href={article.link} target="_blank" rel="noopener noreferrer">
+          <a href={article.url} target="_blank" rel="noopener noreferrer">
             <div className='item__title'>
               <p>{article.title.slice(0, 80)}...</p>
             </div>
@@ -62,10 +62,10 @@ const ListItem: React.FC<Props> = ({ article }) => {
           </div>
         </div>
         <div className='item__img'>
-          <a href={article.link} target="_blank" rel="noopener noreferrer">
-            {article.image_url && (
+          <a href={article.url} target="_blank" rel="noopener noreferrer">
+            {article.urlToImage !== "null" && (
               <img
-                src={article.image_url}
+                src={article.urlToImage}
                 className='item__img'
                 alt={article.title}
               />
