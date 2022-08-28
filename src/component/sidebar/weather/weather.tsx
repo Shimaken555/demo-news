@@ -5,7 +5,7 @@ import './weather.scss';
 const Weather: React.FC = () => {
   const [temp, setTemp] = useState([]);
   const [main, setMain] = useState([]);
-  const [icon, setIcon] = useState([]);
+  const [icon, setIcon] = useState(['01']);
 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -23,12 +23,11 @@ const Weather: React.FC = () => {
       const lon = 139.413;
       const URL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=${exclude}&appid=${weatherKey}`;
       const res = await axios.get(URL);
+      setIcon(res.data.current.weather[0].icon);
       setTemp(res.data.current.temp);
       setMain(res.data.current.weather[0].main);
-      setIcon(res.data.current.weather[0].icon);
 
       setLoading(false);
-      console.log(res);
     } catch (err: any) {
       setLoading(false);
       setError(err);
@@ -52,7 +51,9 @@ const Weather: React.FC = () => {
             </div>
             <div className="weather__icon">
               <img
-                src={`https://shima-ken.org/sample4/img/weatherIcons/${icon.slice(0, 2) + 'd'}.png`}
+                src={`https://shima-ken.org/sample4/img/weatherIcons/${
+                  icon.slice(0, 2) + 'd'
+                }.png`}
                 alt="Tokyo's weather icon"
               />
               <span>{main}</span>

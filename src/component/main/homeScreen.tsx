@@ -30,8 +30,15 @@ const HomeScreen: React.FC = () => {
       const newsKey = '57d8bef9b280448b9627c500b26820c8';
       // const URL = `https://newsdata.io/api/1/news?apikey=${newsKey}&country=jp&category=${category}&language=jp`;
       const URL = `https://newsapi.org/v2/top-headlines?country=jp&category=${category}&pageSize=30&apiKey=${newsKey}`;
-      const res = await axios.get(URL);
-      setArticles(res.data.articles);
+
+      fetch(URL, {method: 'GET'})
+      .then(res => res.json())
+      .then(data => {
+          setArticles(data.articles);
+      })
+
+      // const res = await axios.get(URL);
+      // setArticles(res.data.articles);
       // setArticles(res.data.results);
       // const data = JSON.stringify(newsSite);
       // const tryData = JSON.parse(data);
