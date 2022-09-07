@@ -18,7 +18,7 @@ const Weather: React.FC = () => {
     try {
       setLoading(true);
       const exclude = 'hourly,minutely';
-      const weatherKey = 'c19889a5d98ce4046ae35a0fd80dc0ff';
+      const weatherKey = process.env.React_APP_WEATHER_API_KEY;
       const lat = 35.4122;
       const lon = 139.413;
       const URL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=${exclude}&appid=${weatherKey}`;
