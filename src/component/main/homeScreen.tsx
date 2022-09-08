@@ -26,7 +26,7 @@ const HomeScreen: React.FC = () => {
   const fetchArticleNews = async () => {
     try {
       setLoading(true);
-      const newsKey = 'pub_106778696f5478975393c851aa52e47677e45';
+      const newsKey = process.env.React_APP_NEWS_API_KEY;
       const URL = `https://newsdata.io/api/1/news?apikey=${newsKey}&country=jp&category=${category}&language=jp&`;
 
 
