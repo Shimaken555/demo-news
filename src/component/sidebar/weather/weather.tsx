@@ -45,14 +45,14 @@ const Weather: React.FC = () => {
           <div className="weather__top">
             <div className="weather__temp">
               <p>
-                {temp.toString().slice(0, 2)}
+                {temp.toString().slice(0, 1)}
                 <span>˚c</span>
               </p>
             </div>
             <div className="weather__icon">
               <img
                 src={`https://shima-ken.org/sample4/img/weatherIcons/${
-                  icon.slice(0, 1) + 'd'
+                  icon.slice(0, 2) + 'd'
                 }.png`}
                 alt="Tokyo's weather icon"
               />
