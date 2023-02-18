@@ -7,8 +7,6 @@ import './drawer.scss';
 const Drawer: React.FC<Visible> = ({ visible, setVisible }) => {
   const { category, handleCategory } = useContext(handleCategoryContext);
 
-  console.log(category);
-
   return (
     <div className='drawer'>
       <div className={

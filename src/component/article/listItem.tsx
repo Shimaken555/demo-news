@@ -25,7 +25,8 @@ const ListItem: React.FC<Props> = ({ article }) => {
 
   const isBookmark = () => {
     return bookmarkState.bookmarkArticles.some(
-      (bookmarkArticle: Article) => bookmarkArticle.link === article.link
+      // (bookmarkArticle: Article) => bookmarkArticle.link === article.link
+      (bookmarkArticle: Article) => bookmarkArticle.url === article.url
     );
   };
 
@@ -41,7 +42,8 @@ const ListItem: React.FC<Props> = ({ article }) => {
     <>
       <article className="item">
         <div className="item__main">
-          <a href={article.link} target="_blank" rel="noopener noreferrer">
+          {/* <a href={article.link} target="_blank" rel="noopener noreferrer"> */}
+          <a href={article.url} target="_blank" rel="noopener noreferrer">
             <div className="item__title">
               <p>{article.title.slice(0, 50)}...</p>
             </div>
@@ -50,7 +52,8 @@ const ListItem: React.FC<Props> = ({ article }) => {
                 <BiLink />
               </div>
               <div className="item__source__lead">
-                <p>{article.link.slice(0, 40)}...</p>
+                {/* <p>{article.link.slice(0, 40)}...</p> */}
+                <p>{article.url.slice(0, 40)}...</p>
               </div>
             </div>
           </a>

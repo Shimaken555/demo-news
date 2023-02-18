@@ -15,7 +15,8 @@ export const bookmarkReducer = (
       return {
         ...state,
         bookmarkArticles: state.bookmarkArticles.filter(
-          (bookmarkArticle) => bookmarkArticle.link !== action.article.link
+          // (bookmarkArticle) => bookmarkArticle.link !== action.article.link
+          (bookmarkArticle) => bookmarkArticle.url !== action.article.url
         ),
       };
     default:
