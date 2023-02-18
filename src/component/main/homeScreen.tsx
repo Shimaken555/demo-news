@@ -28,7 +28,7 @@ const HomeScreen: React.FC = () => {
       setLoading(true);
       const newsKey = process.env.React_APP_NEWS_API_KEY;
       // const URL = `https://newsdata.io/api/1/news?apikey=${newsKey}&country=jp&category=${category}&language=jp&`;
-      const URL = `http://newsapi.org/v2/top-headlines?country=jp&category=${category}&apiKey=${newsKey}`;
+      const URL = `http://newsapi.org/v2/top-headlines?country=jp&category=Business&apiKey=${newsKey}`;
 
       const res = await axios.get(URL);
       setArticles(res.data.results);
