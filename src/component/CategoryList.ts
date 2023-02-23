@@ -1,8 +1,1 @@
-export const categoryList = [
-  'Business',
-  'Top',
-  'Entertainment',
-  'Sports',
-  'Technology',
-  'Science',
-];
+export const categoryList = ['トップ', '経済', '芸能', '科学', 'IT', 'ゲーム'];

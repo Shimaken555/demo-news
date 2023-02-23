@@ -35,7 +35,6 @@
 
 .item__source {
   height: 17%;
-  color: #a9a9a9;
   display: flex;
   .item__source__icon {
     margin-top: 1px;
@@ -48,7 +47,7 @@
 .item__bottom {
   margin-top: 10px;
   margin-right: auto;
-  color: #0078C6;
+  color: #0078c6;
   display: flex;
   @media screen and (max-width: 600px) {
     margin-top: 5px;

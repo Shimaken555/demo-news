@@ -35,7 +35,8 @@ const Weather: React.FC = () => {
     }
   };
 
-  const lenght = temp.toString().length;
+  const lenght = temp.toString().slice(2,3)
+  console.log(lenght);
 
   return (
     <>
@@ -47,7 +48,7 @@ const Weather: React.FC = () => {
           <div className="weather__top">
             <div className="weather__temp">
               <p>
-                {lenght > 4
+                {lenght == "."
                   ? temp.toString().slice(0, 2)
                   : temp.toString().slice(0, 1)}
                 {/* {temp.toString().slice(0, 2)} */}

@@ -1,13 +1,16 @@
 export type Article = {
-  source_id: string;
-  author: string;
   title: string;
   description: string;
-  // link: string;
-  url: string
-  image_url: string;
-  pubDate: string;
   content: string;
+  // link: string;
+  url: string;
+  // image_url: string;
+  image: string;
+  publishedAt: string;
+  source: {
+    name: string;
+    url: string;
+  };
 };
 
 export type Articles = Article[];

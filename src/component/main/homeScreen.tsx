@@ -28,13 +28,15 @@ const HomeScreen: React.FC = () => {
       setLoading(true);
       const newsKey = process.env.React_APP_NEWS_API_KEY;
       console.log(newsKey);
-      // const URL = `https://newsdata.io/api/1/news?apikey=${newsKey}&country=jp&category=${category}&language=jp&`;
-      // const URL = `https://newsapi.org/v2/top-headlines?country=jp&${category}=Business&apiKey=${newsKey}`;
-      const URL = `https://gnews.io/api/v4/top-headlines?category='business'&country=jp&apikey=${newsKey}`;
+      const URL =
+        category == 'トップ'
+          ? `https://gnews.io/api/v4/top-headlines?category=general&country=jp&max=10&apikey=34733663a589b2a4ce6fe31e634dc2e4`
+          : `https://gnews.io/api/v4/search?q=${category}&country=jp&apikey=${newsKey}`;
 
       const res = await axios.get(URL);
       console.log(res);
       setArticles(res.data.articles);
+      // setArticles(res.articles);
       setLoading(false);
     } catch (err: any) {
       setLoading(false);

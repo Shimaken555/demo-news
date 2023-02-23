@@ -1,306 +1,41 @@
 {
-  "status": "ok",
-  "totalResults": 30,
+  "totalArticles": 7906,
   "articles": [
     {
-      "source": { "id": null, "name": "Nikkei.com" },
-      "author": "日本経済新聞社",
-      "title": "日本電産、関社長が退任・退社へ 新社長に小部副会長 - 日本経済新聞",
-      "description": "日本電産は10月から副会長の小部博志氏（73）が社長兼最高執行責任者（COO）に就任する方針を固めた。現在の社長兼COOの関潤氏（61）は退任する。関氏が担当する車載事業は業績不振が続いており、関氏は退社する意向を固めたもようだ。関氏は日産自動車で副COOを務めたのち2020年1月に日本電産に入社。創業者である永守重信氏（77）の後継者として、同年4月に社長に就任した。21年6月に永守氏から最",
-      "url": "https://www.nikkei.com/article/DGXZQOUF250YT0V20C22A8000000/",
-      "urlToImage": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO2324824025082022000000-1.jpg?ixlib=js-2.3.2&auto=format%2Ccompress&ch=Width%2CDPR&q=45&fit=crop&bg=FFFFFF&w=1200&h=630&fp-x=0.24&fp-y=0.32&fp-z=1&crop=focalpoint&s=05a5d2a1083af38de1f055b190e41d76",
-      "publishedAt": "2022-08-25T02:03:25Z",
-      "content": null
+      "title": "Pokémon Scarlet and Violet fix coming for Dondozo-Tatsugiri bug",
+      "description": "Game Freak has a Pokémon Scarlet and Violet update scheduled for February, and in it, the developer is fixing a bunch of bugs in Tera raids and battles.",
+      "content": "The Pokémon Company and developer Game Freak have a Pokémon Scarlet and Violet update scheduled for the end of February, a patch that’s intended mostly to fix some bugs. Among those bugs is one that made one of the most powerful Pokémon even more pow... [2323 chars]",
+      "url": "https://www.polygon.com/23604643/pokemon-scarlet-violet-february-2023-patch-notes",
+      "image": "https://cdn.vox-cdn.com/thumbor/xE_cLQhsLN63ozTXo_t8RIZTgHo=/0x134:2256x1315/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24441283/Screenshot__195_.png",
+      "publishedAt": "2023-02-17T21:03:29Z",
+      "source": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com"
+      }
     },
     {
-      "source": { "id": null, "name": "Ascii.jp" },
-      "author": null,
-      "title": "第12世代Core i7＋RTX 3060搭載のコンパクトPC＜GX750/EAB＞レビュー、買ってすぐにゲームが遊べる周辺機器もセットで超おトク！ (1/4) - ASCII.jp",
-      "description": "NECパーソナルコンピュータの＜GX750/EAB＞は、第12世代インテルCoreプロセッサーのCore i7-12700Fと、NVIDIA GeForce RTX 3060を搭載するゲーミングPCだ。本記事では、＜GX750/EAB＞のレビューをお届けする。",
-      "url": "https://ascii.jp/elem/000/004/102/4102011/?rss",
-      "urlToImage": "https://ascii.jp/img/2022/08/17/3406116/l/2a9c151b70495fd0.jpg",
-      "publishedAt": "2022-08-25T02:00:00Z",
-      "content": "PCPCPCNECPCLAVIE GX\r\nLAVIE GXNECPCProject1PCPC\r\nZPC\r\nLAVIE GXGX750/EABCPU12CoreCore i7-12700FGPUNVIDIA GeForce RTX 3060PC\r\nGX750/EAB\r\n<table><tr><th>GX750/EAB </th></tr><tr><th></th><td>GX750/EAB</td… [+966 chars]"
+      "title": "Behind the Screens",
+      "description": "In our latest Behind the Screens edition, we're taking a look at Rikka's writing and podcasting workstation with Pokémon keyboard.",
+      "content": "Over the years, we’ve shared the workstations of where past and current writers spend our time during the day, and now we’re relaunching that Behind the Screens series. To kick things off, welcome to my recently-renovated workstation. Centered around... [11817 chars]",
+      "url": "https://9to5toys.com/2023/02/17/behind-the-screens-rikka-workstation/",
+      "image": "https://i0.wp.com/9to5toys.com/wp-content/uploads/sites/5/2023/02/Rikka-Behind-the-Screens.jpg?resize=1200%2C628&ssl=1",
+      "publishedAt": "2023-02-17T20:26:41Z",
+      "source": {
+        "name": "9to5Toys",
+        "url": "https://9to5toys.com"
+      }
     },
     {
-      "source": { "id": null, "name": "YouTube" },
-      "author": null,
-      "title": "【LIVE】昼のニュース 新型コロナ・最新情報など | TBS NEWS DIG（8月25日） - TBS NEWS DIG Powered by JNN",
-      "description": "ＴＢＳ/ＪＮＮの最新ニュースをダイジェストでお届けします。#新型コロナウイルス#ウクライナ #ロシア   #COVID19#最新ニュース  #TBS #news#伊藤アナ #上村アナ▼TBS NEWS DIG 公式サイト　https://newsdig.tbs.co.jp/▼チャンネル登録をお願いします！http...",
-      "url": "https://www.youtube.com/watch?v=ZFN1Frw8Ycs",
-      "urlToImage": "https://i.ytimg.com/vi/ZFN1Frw8Ycs/maxresdefault_live.jpg",
-      "publishedAt": "2022-08-25T01:47:16Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Nikkei.com" },
-      "author": "日本経済新聞社",
-      "title": "サハリン2新会社、三菱商事も参画意向を通知へ（写真=AP） - 日本経済新聞",
-      "description": "三菱商事は25日、ロシア極東の資源開発事業「サハリン2」の新たな運営会社に参画する通知を出す方針を決めた。ロシアは8月にサハリン2の運営を新会社に移管し、三井物産と三菱商事に出資を続けるかどうか判断を迫っていた。三井物産も参画の意向を通知する方針を決めている。両社ともロシア側の動向を精査しつつ、月内にも意向を伝える見通しだ。日本政府は権益を維持する方針で出資企業である三井物産と三菱商事に協力を",
-      "url": "https://www.nikkei.com/article/DGXZQOUC210ZZ0R20C22A8000000/",
-      "urlToImage": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO2311570022082022000000-1.jpg?ixlib=js-2.3.2&auto=format%2Ccompress&ch=Width%2CDPR&q=45&fit=crop&bg=FFFFFF&w=1200&h=630&fp-x=0.5&fp-y=0.5&fp-z=1&crop=focalpoint&s=d3bccf6487c7728fbf16809585e652fd",
-      "publishedAt": "2022-08-25T00:50:00Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Oricon.co.jp" },
-      "author": "-",
-      "title": "津田寛治、新型コロナ感染 所属事務所「安静に休養して体調回復に努めます」 - ORICON NEWS",
-      "description": "俳優の 津田寛治 （56）が、新型コロナウイルスに感染した。25日に所属事務所が報告した。  　サイトでは「8月24日の朝に発熱し、PCR検査を実施したところ、同日、新型コロナウィルス陽性と認定されましたのでご報告申し上げます」と伝え「今後は安静に休養して体調回復に努めて参ります」とした。",
-      "url": "https://www.oricon.co.jp/news/2246974/full/",
-      "urlToImage": "https://contents.oricon.co.jp/upimg/news/2247000/2246974/20220825_091022_o_74931230.jpg",
-      "publishedAt": "2022-08-25T00:16:00Z",
-      "content": "ORICON NEWSoricon MENewSWebPCJASRAC9009642142Y31015 / 9009642140Y38026 | JRCX000003B14L | e-LicenseID26546\r\nCookie"
-    },
-    {
-      "source": { "id": null, "name": "Fukuishimbun.co.jp" },
-      "author": "福井新聞ONLINE",
-      "title": "KDDI通信障害、16都道県の最大8万3000人に影響 8月24日夜発生、原因は設備故障 - 福井新聞",
-      "description": "KDDIは8月24日午後9時13分ごろから同日午後9時58分ごろまでの間、auやUQmobileで通信障害があり、音声通話が利用しづらい状況だったと発表。25日午前7時すぎの発表によると、16都道県の最大8万3000人に影響が出たという。　影響が出たのは東日本エリアで北海道、青森県、岩手県、秋田県、宮城県、山形県、福島県、新潟県、群馬県、栃木県、茨城県、埼玉県、東京都、神奈川県、千葉県、山梨県。",
-      "url": "https://www.fukuishimbun.co.jp/articles/-/1616442",
-      "urlToImage": "https://fki.ismcdn.jp/mwimgs/e/0/-/img_e044292d67bb8f9b70dbbf1c5a03b27f24799.jpg",
-      "publishedAt": "2022-08-24T23:20:00Z",
-      "content": "KDDI824913958auUQmobile2571683000\r\nauUQ mobilepovoauSMS\r\nKDDI72391511986"
-    },
-    {
-      "source": { "id": null, "name": "Nhk.or.jp" },
-      "author": null,
-      "title": "【随時更新】ロシア ウクライナに軍事侵攻（25日の動き） - nhk.or.jp",
-      "description": "ロシアによるウクライナに対する軍事侵攻は開始から6か月余りとなりました。ウクライナの各地でロシア軍とウクライナ軍が戦闘を…",
-      "url": "https://www3.nhk.or.jp/news/html/20220825/k10013746211000.html",
-      "urlToImage": "https://www3.nhk.or.jp/news/html/20220825/K10013746211_2208101045_0825045505_01_02.jpg",
-      "publishedAt": "2022-08-24T23:08:03Z",
-      "content": "6\r\n25\r\n6\r\n50\r\n87\r\n23000\r\nSNS\r\n680"
-    },
-    {
-      "source": { "id": null, "name": "Bloomberg.co.jp" },
-      "author": null,
-      "title": "日本株は小反発へ、米金利上昇や円安－バリュー銘柄と輸出関連が堅調 - ブルームバーグ",
-      "description": "東京株式相場は反発。米長期金利が上昇し、収益環境が改善する保険や銀行など金融株に買いが入っている。医薬品や精密機器株の上げも目立つ。ただ、ジャクソンホール会合（カンザスシティー連銀主催の年次シンポジウム）を前に投資家の買い控えムードは残り、株価指数は伸び悩む場面もあった。",
-      "url": "https://www.bloomberg.co.jp/news/articles/2022-08-24/RH50FQT0G1KW01",
-      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iwOlntOMv9DM/v0/1200x800.jpg",
-      "publishedAt": "2022-08-24T22:59:00Z",
-      "content": "東京株式相場は反発。米長期金利が上昇し、収益環境が改善する保険や銀行など金融株に買いが入っている。医薬品や精密機器株の上げも目立つ。ただ、ジャクソンホール会合（カンザスシティー連銀主催の年次シンポジウム）を前に投資家の買い控えムードは残り、株価指数は伸び悩む場面もあった。\r\n<table>\r\n<tr><td><ul><li>ＴＯＰＩＸは前日比7.54ポイント（0.4％）高の1974.72－午前1… [+554 chars]"
-    },
-    {
-      "source": { "id": null, "name": "Goo.ne.jp" },
-      "author": null,
-      "title": "【週刊新潮】引っ張りだこ俳優、性ハラ疑惑...「訴訟・ジャニーズファンはやっぱり」蒸し返す - goo",
-      "description": "8月24日発売の「週刊新潮」が、香川照之の性ハラ疑惑を報じた。香川は、銀座のホステスに対し、やりたい放題のハラスメントをしていた可能性があるという。「記事によると香川は19年、銀座のクラブを訪れた際、席に着いたホステスのアンダーウエアを剥ぎ取...",
-      "url": "https://ima.goo.ne.jp/word/223237/【週刊新潮】引っ張りだこ俳優、性ハラ疑惑...「訴訟・ジャニーズファンはやっぱり」蒸し返す",
-      "urlToImage": "https://ima.xgoo.jp/word/img/contents/2/47381.jpg",
-      "publishedAt": "2022-08-24T22:16:00Z",
-      "content": "82419PTSD\r\n11CDMCTHE TIME,TBS99.9THE MOVIE\r\nCM"
-    },
-    {
-      "source": { "id": null, "name": "Nikkeibp.co.jp" },
-      "author": null,
-      "title": "外部サイトの要素や動作を自由にカスタマイズ、PixieBrixの威力とは（後） - 外部サイトの要素や動作を自由にカスタマイズ、PixieBrixの威力と...：Computerworld - Nikkei Business Publications",
-      "description": "",
-      "url": "https://project.nikkeibp.co.jp/idg/atcl/19/00319/080500002/",
-      "urlToImage": "",
-      "publishedAt": "2022-08-24T21:15:49Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Weathernews.jp" },
-      "author": "ウェザーニュース",
-      "title": "週間天気予報 週末や月末は強雨・大雨の可能性 猛暑和らぎ季節は少し前進 - ウェザーニュース",
-      "description": "この先1週間の天気のポイントは「週末は北日本を中心に大雨の可能性」「来週中頃は広く雨　強まるおそれも」「季節は少し前進　秋の気配も」です。ウェザーニュースの最新の天気予報を随時確認してください。",
-      "url": "https://weathernews.jp/s/topics/202208/250015/",
-      "urlToImage": "https://smtgvs.weathernews.jp/s/topics/img/202208/202208250015_top_img_A.png?1661371685",
-      "publishedAt": "2022-08-24T20:45:00Z",
-      "content": "{{topic.rank}}\r\n{{topic.pageTitle}}{{editTstr(topic.editTime)}}"
-    },
-    {
-      "source": { "id": null, "name": "Sporting News" },
-      "author": null,
-      "title": "三笘薫が公式戦初先発！ブライトン、3部フォレスト・グリーンに勝利でカラバオ杯3回戦進出 - Goal.com",
-      "description": "Get the latest soccer news, rumors, video highlights, scores, schedules, standings, photos, player information and more from Sporting News Canada",
-      "url": "https://www.sportingnews.com/ca/soccer",
-      "urlToImage": "https://static.sportingnews.com/1.15.0.11/themes/custom/tsn/logo.jpg",
-      "publishedAt": "2022-08-24T20:40:00Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Yomiuri.co.jp" },
-      "author": "読売新聞オンライン",
-      "title": "高く評価・ナンセンス・自治体に任せるな…全数把握見直し、知事の判断割れる - 読売新聞オンライン",
-      "description": "神奈川・負担減を評価／島根・正確性期し継続 　政府が２４日に公表した新型コロナウイルス感染者の「全数把握」の見直し方針について、自治体の受け止めは分かれた。導入は都道府県知事の判断に委ねられたことに、全国一律での対応を求",
-      "url": "https://www.yomiuri.co.jp/national/20220825-OYT1T50039/",
-      "urlToImage": "https://www.yomiuri.co.jp/media/2022/08/20220825-OYT1I50016-T.jpg?type=ogp",
-      "publishedAt": "2022-08-24T20:00:00Z",
-      "content": "328373202022/08/25 05:00:002022/08/25 07:32:122022/08/25 07:32:12https://www.yomiuri.co.jp/media/2022/08/20220825-OYT1I50016-T.jpg?type=thumbnail"
-    },
-    {
-      "source": { "id": null, "name": "Nikkansports.com" },
-      "author": "日刊スポーツ",
-      "title": "【DeNA】山崎康晃、大好きな亡きお母さんへ「感謝の手紙」最年少200Ｓセーブ 史上8人目 - ニッカンスポーツ",
-      "description": "DeNA山崎康晃投手（29）が、プロ野球史上最年少で、史上8人目の通算200セーブを達成した。4点リードの9回2死一、二塁から登板。糸原を2球で中飛にねじ伏せ… - 日刊スポーツ新聞社のニュースサイト、ニッカンスポーツ・コム（nikkansports.com）。",
-      "url": "https://www.nikkansports.com/baseball/news/202208240001507.html",
-      "urlToImage": "https://www.nikkansports.com/baseball/news/img/202208240001507-w500_0.jpg",
-      "publishedAt": "2022-08-24T19:45:00Z",
-      "content": "(C)2022,Nikkan Sports News.\r\nnikkansports.comNEWS"
-    },
-    {
-      "source": { "id": null, "name": "The Mainichi" },
-      "author": "毎日新聞",
-      "title": "大阪・高槻の女性殺害容疑 28歳養子を再逮捕へ 1億円遺産相続 - 毎日新聞 - 毎日新聞",
-      "description": "大阪府高槻市の女性（当時54歳）との養子縁組届を偽造したとして、有印私文書偽造・同行使などの疑いで逮捕された無職の高井凜容疑者（28）が女性の死亡後、約1億円の遺産を相続していたことが捜査関係者への取材で判明した。女性には総額約1億5000万円の生命保険がかかっており、この受取人も凜容疑者だった。",
-      "url": "https://mainichi.jp/articles/20220824/k00/00m/040/213000c",
-      "urlToImage": "https://cdn.mainichi.jp/vol1/2022/08/24/20220824k0000m040230000p/0c10.jpg?1",
-      "publishedAt": "2022-08-24T17:00:00Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "YouTube" },
-      "author": null,
-      "title": "【独自】安倍元総理の国葬 予備費２億円あまりで最終調整 警備費などは含めず｜TBS NEWS DIG - TBS NEWS DIG Powered by JNN",
-      "description": "来月27日に予定されている安倍元総理の国葬の費用について、政府が2億円あまりで最終調整に入っていることがわかりました。安倍元総理の国葬をめぐっては参列者は最大で6400人程度で調整していますが、政府関係者によりますと、予備費として計上される国葬費用については2億円あまりで最終調整に入っていることがわかりました。今...",
-      "url": "https://www.youtube.com/watch?v=g_HQs-_vMgo",
-      "urlToImage": "https://i.ytimg.com/vi/g_HQs-_vMgo/hqdefault.jpg",
-      "publishedAt": "2022-08-24T16:30:53Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Nikkei.com" },
-      "author": "日本経済新聞社",
-      "title": "ゼレンスキー氏「駅攻撃で15人死亡」 安保理会合で非難 - 日本経済新聞",
-      "description": "【ニューヨーク=吉田圭織】国連の安全保障理事会は24日、ロシアのウクライナ侵攻から半年がたったことを受けて会合を開き、同国のゼレンスキー大統領が参加した。同氏はオンラインで参加し「この演説を準備している間にドニエプロペトロフスク州の鉄道の駅が攻撃されたと伝えられた。これが我々の日常だ」とロシアを非難した。駅に対する攻撃についてゼレンスキー氏は「現時点で少なくとも15人が死亡、50人のけがが確認",
-      "url": "https://www.nikkei.com/article/DGXZQOGN24DP50U2A820C2000000/",
-      "urlToImage": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO2324334024082022000000-1.jpg?ixlib=js-2.3.2&auto=format%2Ccompress&ch=Width%2CDPR&q=45&fit=crop&bg=FFFFFF&w=1200&h=630&fp-x=0.47&fp-y=0.34&fp-z=1&crop=focalpoint&s=5ffe65874fa4611e45f0f0657ce07e88",
-      "publishedAt": "2022-08-24T16:11:39Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Nhk.or.jp" },
-      "author": null,
-      "title": "自民 萩生田政調会長 旧統一教会と今後は関係を絶つ考えを強調 - nhk.or.jp",
-      "description": "旧統一教会との関係をめぐり、自民党の萩生田政務調査会長は、関連団体も含めて今後は関係を絶つ考えを強調しました。",
-      "url": "https://www3.nhk.or.jp/news/html/20220825/k10013786631000.html",
-      "urlToImage": "https://www3.nhk.or.jp/news/html/20220825/K10013786631_2208250025_0825010545_01_02.jpg",
-      "publishedAt": "2022-08-24T16:05:44Z",
-      "content": ""
-    },
-    {
-      "source": { "id": null, "name": "YouTube" },
-      "author": null,
-      "title": "エンゼルスオーナー「球団売却を検討」大谷翔平選手の“去就”に影響は？専門家解説(2022年8月24日) - ANNnewsCH",
-      "description": "メジャーリーグの大谷翔平選手が所属するロサンゼルス・エンゼルスのオーナー、アルテ・モレノ氏（76）が球団売却に向け、外部の財務エキスパートと契約したと明らかにしました。アルテ・モレノ氏：「20シーズンもエンゼルスを所有できたことは光栄であり、名誉でした。この苦渋の決断は、熟慮の末に私たちが選んだ結果でありますが、...",
-      "url": "https://www.youtube.com/watch?v=PB_UbxgG_00",
-      "urlToImage": "https://i.ytimg.com/vi/PB_UbxgG_00/hqdefault.jpg",
-      "publishedAt": "2022-08-24T15:25:00Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "YouTube" },
-      "author": null,
-      "title": "「廃炉も進んでいないのに」岸田総理 原発“新増設”検討へ 再稼働も(2022年8月24日) - ANNnewsCH",
-      "description": "岸田総理は24日、脱炭素化を進める会議で、『次世代原発』の新設や増設を検討し始めるよう指示を出しました。岸田総理：「新たな安全メカニズムを組み込んだ次世代革新炉の開発・建設など、今後の政治判断を必要とする項目が示されました。年末に具体的な結論を出せるよう、与党や専門家の意見も踏まえ、検討を加速してください」総理就...",
-      "url": "https://www.youtube.com/watch?v=s7NWRTzVLm4",
-      "urlToImage": "https://i.ytimg.com/vi/s7NWRTzVLm4/hqdefault.jpg",
-      "publishedAt": "2022-08-24T15:21:32Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Bloomberg.co.jp" },
-      "author": null,
-      "title": "米政府、１人当たり最大２万ドルの学生ローン減免へ－大統領発表 - ブルームバーグ",
-      "description": "バイデン米大統領は24日、学生の債務負担を軽減する包括的な救済措置を発表した。個人の年間所得が12万5000ドル（約1700万円）未満、世帯所得が25万ドル未満の借り手を対象に債務を１万ドル減免するほか、ペル・グラントと呼ばれる連邦補助金の受給者については債務を２万ドル減免する。",
-      "url": "https://www.bloomberg.co.jp/news/articles/2022-08-24/RH4I2WT0G1KY01",
-      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/id3ZCr9Wf43E/v1/1200x800.jpg",
-      "publishedAt": "2022-08-24T14:32:45Z",
-      "content": "バイデン米大統領は24日、学生の債務負担を軽減する包括的な救済措置を発表した。個人の年間所得が12万5000ドル（約1700万円）未満、世帯所得が25万ドル未満の借り手を対象に債務を１万ドル減免するほか、ペル・グラントと呼ばれる連邦補助金の受給者については債務を２万ドル減免する。\r\n　　ローンの返済猶予を４カ月延長して12月31日までとする措置や、学士課程ローンの返済額を月間所得の５％以内に限定… [+189 chars]"
-    },
-    {
-      "source": { "id": null, "name": "Jiji.com" },
-      "author": "時事通信社",
-      "title": "ベラルーシ大統領、ウクライナは「良好な隣国」 独立記念日を祝福 - 時事通信ニュース",
-      "description": "【モスクワＡＦＰ時事】ベラルーシのルカシェンコ大統領は２４日、ウクライナの独立記念日を祝福する声明を発表し、「数世紀にわたり両国民が築いてきた誠実で良好な隣国としての絆の基盤が、今日の矛盾によって壊されることがないと確信している」と強調した。ベラルーシはロシアの同盟国で、ロシア軍のウクライナ侵攻ではベラルーシ領内も攻撃拠点となっている。",
-      "url": "https://www.jiji.com/jc/article?k=2022082400967&g=int",
-      "urlToImage": "https://www.jiji.com/news2/kiji_photos/202208/20220824ds65_o.jpg",
-      "publishedAt": "2022-08-24T12:01:00Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "YouTube" },
-      "author": null,
-      "title": "岸田首相に“教会と接点”報道 「知り得る限り関係ない」 後援会長は“議長”辞任 - FNNプライムオンライン",
-      "description": "首相の周辺にも旧統一教会との接点です。岸田首相の後援会長が、旧統一教会との関連が報じられている団体の議長を務めていたことがわかりました。FNNプライムオンラインhttps://www.fnn.jp/",
-      "url": "https://www.youtube.com/watch?v=puJUZeX4nUE",
-      "urlToImage": "https://i.ytimg.com/vi/puJUZeX4nUE/hqdefault.jpg",
-      "publishedAt": "2022-08-24T11:45:48Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Oricon.co.jp" },
-      "author": "-",
-      "title": "【あす25日のちむどんどん】歌子、初ライブに緊張して…智がサポートする - ORICON NEWS",
-      "description": "俳優の 黒島結菜 がヒロインを務める、NHK連続テレビ小説 『ちむどんどん』（月～土　前8：00　総合／前 7：30　BS4K・BSプレミアム※土曜日は1週間の振り返り）の第99回が、25日に放送される。  　前回は、暢子（黒島結菜）がどうしてもこのまま開店するというなら…と房子（ 原田美枝子 ）は3つの条件を出した。そのうちの1つが、店の味を任せられる料理人を雇うこと。暢子がこの条件に合う料理人探す中、ばったり出会ったのは、食い逃げで捕まった矢作（ 井之脇海 ）だった。その頃、沖縄では、良子（ 川口春奈 ）が学…",
-      "url": "https://www.oricon.co.jp/news/2246913/full/",
-      "urlToImage": "https://contents.oricon.co.jp/cdn-cgi/image/width=1200,quality=85,format=auto/upimg/news/2247000/2246913/20220821_133734_p_o_44886805.jpg",
-      "publishedAt": "2022-08-24T08:10:00Z",
-      "content": "ORICON NEWSoricon MENewSWebPCJASRAC9009642142Y31015 / 9009642140Y38026 | JRCX000003B14L | e-LicenseID26546\r\nCookie"
-    },
-    {
-      "source": { "id": null, "name": "Tv-asahi.co.jp" },
-      "author": "テレ朝news",
-      "title": "藤井五冠の「9七銀」 名手はいかに生まれたのか 乗り越えた失冠の大ピンチ（2） - テレビ朝日",
-      "description": "今年4月から5月にかけて調子を崩し、初めてタイトルを失う大ピンチに陥っていたという将棋の藤井聡太竜王（20歳、王位・叡王・王将・棋聖と合わせて五冠）。\n彼の対局を見続けてきた棋士たちの証言では、復調へのターニングポイントとなったのが、棋聖戦五番勝負第2局の終盤、藤井竜王の放った“勝負手”だった。\n\n「△9七銀」。\n解説の棋士が「震えた」というその名手は、タイトル戦の流れを変えただけでなく、苦しみ続けていた藤井竜王が、自分本来の姿を取り戻すきっかけとなる一手だった…\n\n挑戦者・豊島（とよしま）将之九段（32）の新型…",
-      "url": "https://news.tv-asahi.co.jp/news_society/articles/000266018.html",
-      "urlToImage": "https://news.tv-asahi.co.jp/articles_img/000266018_640.jpg",
-      "publishedAt": "2022-08-24T08:00:25Z",
-      "content": "45202\r\n9\r\n32634321\r\n10\r\n9\r\n293\r\n7\r\n31931\r\n29\r\n1423\r\n22\r\n33\r\n615\r\n1133\r\n2ABEMAAI554593\r\n3\r\nAI215\r\n1\r\n1\r\n9AI\r\n1AI30\r\n9\r\n89\r\n1\r\n9ABEMA\r\n99\r\nABEMA\r\n9\r\n99\r\n9\r\n44\r\n41\r\n2111\r\n34\r\n9\r\n10\r\n1020\r\n41920\r\n10520\r\n… [+15 chars]"
-    },
-    {
-      "source": { "id": null, "name": "Www.fnn.jp" },
-      "author": "フジテレビジョン",
-      "title": "フィンランド首相“不適切”写真謝罪 パーティー映像流出に続き｜FNNプライムオンライン - FNNプライムオンライン",
-      "description": "今度は、「不適切」な写真で謝罪。フィンランドのマリン首相は、首相公邸で開かれたパーティーでの写真が流出したことを受け、謝罪した。問題の写真は、7月10日に公邸で開かれたパーティーで、マリン首相の知人女性が、別の女性と、はだけた胸を「フィンランド」と書かれたパネルで隠しながらキスしているもの。このパネルは、マリン首相が声明を録画する際に机に置かれるもので、マリン首相は、写真が公邸で撮影されたことを認めた。そのうえで、「不適切で、撮られるべきではなかった」と謝罪したが、「それ以外に特異なことは起き…",
-      "url": "https://www.fnn.jp/articles/-/407322",
-      "urlToImage": "https://fnn.ismcdn.jp/mwimgs/7/3/600/img_73b776d9be11d55cb26ce0c085fe6e2a431222.jpg",
-      "publishedAt": "2022-08-24T03:13:00Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Tokai-tv.com" },
-      "author": null,
-      "title": "数百m手前から中央線またいで走る…横転・炎上し9人が死傷した大型バス 運転手の体調に異変起きた可能性も - tokai-tv.com",
-      "description": "『数百m手前から中央線またいで走る…横転・炎上し9人が死傷した大型バス 運転手の体調に異変起きた可能性も』",
-      "url": "https://www.tokai-tv.com/tokainews/article_20220824_21224",
-      "urlToImage": "https://www.tokai-tv.com/tokainews/image/202208242122400.jpg",
-      "publishedAt": "2022-08-24T02:39:00Z",
-      "content": ""
-    },
-    {
-      "source": { "id": null, "name": "Nikkansports.com" },
-      "author": "日刊スポーツ",
-      "title": "大谷翔平３打数１安打 エンゼルス・モレノオーナーが球団売却へ、チームは大敗／詳細 - ＭＬＢ - ニッカンスポーツ",
-      "description": "エンゼルス大谷翔平投手（27）はレイズ戦に「3番DH」で出場。3打数1安打だった。試合前にエンゼルスは、モレノ・オーナーが球団の売却先を検討していることを発表… - 日刊スポーツ新聞社のニュースサイト、ニッカンスポーツ・コム（nikkansports.com）。",
-      "url": "https://www.nikkansports.com/baseball/mlb/news/202208240000082.html",
-      "urlToImage": "https://www.nikkansports.com/baseball/mlb/news/img/202208240000082-w500_0.jpg",
-      "publishedAt": "2022-08-24T01:52:00Z",
-      "content": "(C)2022,Nikkan Sports News.\r\nnikkansports.comNEWS"
-    },
-    {
-      "source": { "id": null, "name": "YouTube" },
-      "author": null,
-      "title": "「プレステ5」向けのVRヘッドセット モーター内蔵で没入感さらに - FNNプライムオンライン",
-      "description": "「PlayStation5」向けの「VRヘッドセット」が2023年の初めに発売される。仮想空間「メタバース」に注力している、ソニーの戦略としても注目される。ソニー・インタラクティブエンタテインメントが、2023年の初めに発売する、VRヘッドセット「PlayStation VR2」は、新たにモーターが内蔵され、ゲー...",
-      "url": "https://www.youtube.com/watch?v=j3xZ6mboWMA",
-      "urlToImage": "https://i.ytimg.com/vi/j3xZ6mboWMA/maxresdefault.jpg",
-      "publishedAt": "2022-08-24T01:43:47Z",
-      "content": null
-    },
-    {
-      "source": { "id": null, "name": "Impress.co.jp" },
-      "author": null,
-      "title": "ヤギ・ピルゴールのイタズラがエスカレート！ 「Goat Simulator 3」の最新トレーラーが公開 - GAME Watch",
-      "description": "PLAIONは8月24日、プレイステーション 5/Xbox Series X|S/PC用アクションアドベンチャー「Goat Simulator 3」の新たなゲームプレイトレーラーを公開した。",
-      "url": "https://game.watch.impress.co.jp/docs/news/1434195.html",
-      "urlToImage": "https://game.watch.impress.co.jp/img/gmw/list/1434/195/1.jpg",
-      "publishedAt": "2022-08-23T21:00:00Z",
-      "content": null
+      "title": "'Pokémon Scarlet and Violet' Sylveon and Garchomp Tera Raid Start and End Dates, Times, and Best Team Comp",
+      "description": "Pokémon Scarlet and Violet just started limited-time Tera Raids featuring Sylveon and Garchomp. Here's everything we know, including start and end dates.",
+      "content": "It hasn’t even been two days since the end of the Tandemaus Valentine’s Day event and the Pokémon Company has already announced a new Tera Raid. Scarlet and Violet continues its trend of regular Tera Raids with two more Pokémon: Sylveon and Garchomp.... [2829 chars]",
+      "url": "https://www.inverse.com/gaming/pokemon-scarlet-violet-sylveon-garchomp-tera-raid-start-end-date-time-team",
+      "image": "https://imgix.bustle.com/uploads/image/2023/2/17/c3ee5451-b91a-4a8a-992e-3acff39cf887-sylveon-eevee.jpg?w=1200&h=630&fit=crop&crop=focalpoint&fm=jpg&fp-x=0.5027&fp-y=0.5095",
+      "publishedAt": "2014-02-11T11:30:29Z",
+      "source": {
+        "name": "Inverse",
+        "url": "https://www.inverse.com"
+      }
     }
   ]
 }

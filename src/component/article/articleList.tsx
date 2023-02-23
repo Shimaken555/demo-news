@@ -13,7 +13,6 @@ const ArticleList: React.FC<Props> = ({ articles }) => {
   return (
     <div>
       {articles.map((article: Article) => (
-        // <ListItem key={article.link} article={article} />
         <ListItem key={article.url} article={article} />
       ))}
     </div>
